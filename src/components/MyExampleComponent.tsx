@@ -4,8 +4,8 @@ export function MyExampleComponent(props: {
   name: string
 }) {
   return (
-    <div className='mt-4 p-4 bg-black'>
-      <p className='text-white'>{props.name}</p>
+    <div className='p-4 bg-white'>
+      <p className='text-black'>{props.name}</p>
     </div>
   )
 }
