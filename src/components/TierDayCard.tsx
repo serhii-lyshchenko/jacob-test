@@ -31,7 +31,7 @@ function TierDayCard({ date, label, tierLevel, onClose }: TierDayCardProps) {
       <div className="absolute top-16 right-16 w-6 h-6 bg-blue-800 rounded-full"></div>
       <div className="absolute top-30 right-16 w-6 h-6 bg-teal-300 rounded-full"></div>
       <div className="absolute top-30 right-16 w-6 h-6 bg-blue-800 rounded-full"></div>
-      <div className="absolute bottom-0 w-full h-26 bg-white rounded-b-md">
+      <div className="absolute bottom-0 w-full h-26 bg-white pb-24 rounded-b-md">
         <div className="flex items-center px-4 py-4">
           <span className="text-base font-medium text-gray-900">You’re now in</span>
           <div className="ml-4 w-16 h-6 bg-purple-700 rounded-full flex justify-center items-center">
