@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 interface TierDayCardProps {
   date: string;
@@ -18,7 +18,8 @@ const TierDayCard: React.FC<TierDayCardProps> = ({ date, label, tierLevel, onClo
           <h2 className="text-3xl font-medium text-white leading-none mt-2">{label}</h2>
         </div>
         <button onClick={onClose} className="flex justify-center items-center w-6 h-6 bg-white rounded-full">
-          <FontAwesomeIcon icon={faTimes} className="text-blue-800" />
+          {/* <FontAwesomeIcon icon={faTimes} className="text-blue-800" /> */}
+          <span className="text-blue-800">X</span>
         </button>
       </div>
       <div className="absolute top-4 right-4 flex items-center justify-center w-16 h-16 bg-teal-300 shadow-md rounded-full">
