@@ -1,8 +1,16 @@
+
 import React from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-function TierDayCard({ date, label, tierLevel, onClose }) {
+interface TierDayCardProps {
+  date: string;
+  label: string;
+  tierLevel: number;
+  onClose: () => void;
+}
+
+function TierDayCard({ date, label, tierLevel, onClose }: TierDayCardProps) {
   return (
     <div className="relative w-full max-w-xs h-60 bg-blue-800 rounded-md shadow-md">
       <div className="flex justify-between items-start px-4 pt-4">
